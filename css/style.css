@@ -1,0 +1,139 @@
+/* Styling for Buttons */
+button, input[type=submit], input[type=reset] {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+
+/* Styling for Textboxes */
+input[type=text], input[type=password], input[type=email], input[type=tel], select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #007bff;
+  outline: none;
+  background-color: transparent;
+}
+
+/* Styling for Textarea */
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  outline: none;
+  background-color: transparent;
+}
+
+/* Styling for Search box */
+input[type=search] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #007bff;
+  outline: none;
+  background-color: transparent;
+}
+
+/* Styling for Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 0;
+}
+
+footer h4 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+footer p {
+  color: #ccc;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+footer ul li a:hover {
+  color: #fff;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons li a {
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #222;
+  border-radius: 50%;
+}
+
+.social-icons li a:hover {
+  background-color: #f00;
+}
